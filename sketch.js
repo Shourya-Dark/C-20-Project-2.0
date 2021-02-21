@@ -33,8 +33,6 @@ cat = createSprite(800,600,40,40);
 
   mouse = createSprite(50,600,40,40);
   mouse.addAnimation("mouse_holdingCheese", mouse_cheese);
- 
- keyPressed();
 
   mouse.scale= 0.1;
 }
